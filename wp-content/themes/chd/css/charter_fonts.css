@@ -1,0 +1,23 @@
+@font-face{
+font-family:"fabric";
+src:
+  url("../fonts/FabricSerif-Medium.woff2") format("woff2");
+font-weight: 500;
+font-style: normal;
+}
+
+@font-face{
+font-family:"fabric";
+src:
+  url("../fonts/FabricSerif-MediumItalic.woff2") format("woff2");
+font-weight: 500;
+font-style: italic;
+}
+
+@font-face{
+font-family:"centra";
+src:
+  url("../fonts/CentraNo2-Medium.woff2") format("woff2");
+font-weight: 500;
+font-style: normal;
+}

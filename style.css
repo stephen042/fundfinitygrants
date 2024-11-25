@@ -1,0 +1,96 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #17629c;
+    color: white;
+    padding: 20px;
+}
+
+.header-logo img {
+    height: 50px;
+}
+
+.header-title h1 {
+    font-size: 1.5em;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Section */
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.application-services h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.application-services p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.service-tabs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* This allows the items to stack on smaller screens */
+}
+
+.tab {
+    width: 30%;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.tab a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+}
+
+.tab:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tab img {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.tab h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.tab p {
+    font-size: 0.9em;

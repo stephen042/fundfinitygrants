@@ -1,0 +1,99 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+}
+
+.header-logo img {
+    height: 50px;
+}
+
+.header-title h1 {
+    font-size: 1.5em;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Content Section */
+main {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.eligibility-check h2 {
+    font-size: 1.8em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.license-code-form,
+.eligibility-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.license-code-form label,
+.eligibility-form label {
+    font-size: 1em;
+    color: #555;
+}
+
+.license-code-form input[type="text"],
+.eligibility-form input[type="text"],
+.eligibility-form input[type="date"],
+.eligibility-form input[type="number"],
+.eligibility-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav a {
+        margin: 5px 0;
+    }
+}
